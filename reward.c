@@ -1,4 +1,4 @@
-#include "state.h"
+#include "reward.h"
 
 double reward(state x, double action) {
     //stuff taken out of context from the matlab file

@@ -1,6 +1,6 @@
 #include "state.h"
 
-typedef struct node
+struct node
 {
 
     //variables regarding the system
@@ -15,8 +15,13 @@ typedef struct node
     int depth;
 
     // graph-tree stuff
-    node* parent;
-    node* child1;
-    node* child2;
-    node* child3;
+    struct node* parent;
+    struct node* child1;
+    struct node* child2;
+    struct node* child3;
 };
+
+typedef struct node node; 
+
+void calculateL(node* nod);
+void calculateB(node* nod);

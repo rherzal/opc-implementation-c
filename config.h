@@ -3,7 +3,7 @@
 
 // Discount value
 
-#define discout 10 
+#define DISCOUNT 10 
 
 // Time Sampling
 

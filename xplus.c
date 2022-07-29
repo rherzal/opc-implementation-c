@@ -1,5 +1,4 @@
-#include "state.h"
-#include "config.h"
+#include "xplus.h"
 
 double f1(double x1, double x2, double u) {
     return x2;
