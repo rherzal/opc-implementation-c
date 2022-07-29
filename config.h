@@ -3,7 +3,7 @@
 
 // Discount value
 
-#define DISCOUNT 10 
+#define DISCOUNT 0.9
 
 // Time Sampling
 

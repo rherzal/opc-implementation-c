@@ -8,7 +8,7 @@ struct node
     double reward; 
     double l;
     double b;
-
+    double action;
 
     //miscelaneous variables
     int isLeaf;
