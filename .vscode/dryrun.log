@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/media/rherzal/SSD/ResearchyStuff/CAlgorithm/opc-implementation-c'
+gcc node.c -c -lm
+make: Leaving directory '/media/rherzal/SSD/ResearchyStuff/CAlgorithm/opc-implementation-c'
+ 
